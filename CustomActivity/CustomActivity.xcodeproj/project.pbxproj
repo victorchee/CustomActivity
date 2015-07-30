@@ -13,6 +13,8 @@
 		F07B43A01B68E71A004D0BB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F07B439F1B68E71A004D0BB1 /* Images.xcassets */; };
 		F07B43A31B68E71A004D0BB1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F07B43A11B68E71A004D0BB1 /* LaunchScreen.xib */; };
 		F07B43AF1B68E71A004D0BB1 /* CustomActivityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07B43AE1B68E71A004D0BB1 /* CustomActivityTests.swift */; };
+		F07B43B91B68F472004D0BB1 /* ShareActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07B43B81B68F472004D0BB1 /* ShareActivity.swift */; };
+		F07B43BB1B68F4C2004D0BB1 /* ActionActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07B43BA1B68F4C2004D0BB1 /* ActionActivity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		F07B43A81B68E71A004D0BB1 /* CustomActivityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomActivityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F07B43AD1B68E71A004D0BB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F07B43AE1B68E71A004D0BB1 /* CustomActivityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomActivityTests.swift; sourceTree = "<group>"; };
+		F07B43B81B68F472004D0BB1 /* ShareActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareActivity.swift; sourceTree = "<group>"; };
+		F07B43BA1B68F4C2004D0BB1 /* ActionActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionActivity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				F07B43981B68E71A004D0BB1 /* AppDelegate.swift */,
 				F07B439A1B68E71A004D0BB1 /* ViewController.swift */,
+				F07B43B81B68F472004D0BB1 /* ShareActivity.swift */,
+				F07B43BA1B68F4C2004D0BB1 /* ActionActivity.swift */,
 				F07B439C1B68E71A004D0BB1 /* Main.storyboard */,
 				F07B439F1B68E71A004D0BB1 /* Images.xcassets */,
 				F07B43A11B68E71A004D0BB1 /* LaunchScreen.xib */,
@@ -214,6 +220,8 @@
 			files = (
 				F07B439B1B68E71A004D0BB1 /* ViewController.swift in Sources */,
 				F07B43991B68E71A004D0BB1 /* AppDelegate.swift in Sources */,
+				F07B43BB1B68F4C2004D0BB1 /* ActionActivity.swift in Sources */,
+				F07B43B91B68F472004D0BB1 /* ShareActivity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
