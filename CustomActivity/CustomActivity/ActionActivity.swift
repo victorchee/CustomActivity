@@ -18,7 +18,7 @@ class ActionActivity: UIActivity {
     }
     
     override func activityType() -> String? {
-        return toString(self)
+        return String(self)
     }
     
     override func activityTitle() -> String? {
@@ -46,7 +46,7 @@ class ActionActivity: UIActivity {
     }
     
     override func performActivity() {
-        print("action: \(title) & \(url)")
+        print("action: \(title) & \(url)", terminator: "")
         dispatch_async(dispatch_get_main_queue(), { () -> Void in
             self.activityDidFinish(true)
         })

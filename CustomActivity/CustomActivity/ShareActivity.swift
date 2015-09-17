@@ -18,7 +18,7 @@ class ShareActivity: UIActivity {
     }
     
     override func activityType() -> String? {
-        return toString(self)
+        return String(self)
     }
     
     override func activityTitle() -> String? {
@@ -46,7 +46,7 @@ class ShareActivity: UIActivity {
     }
     
     override func performActivity() {
-        print("share: \(title) & \(url)")
+        print("share: \(title) & \(url)", terminator: "")
         dispatch_async(dispatch_get_main_queue(), { () -> Void in
             self.activityDidFinish(true)
         })
